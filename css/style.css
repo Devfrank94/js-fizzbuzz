@@ -18,41 +18,53 @@ body{
 
 .container{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
+}
+
+h1{
+  font-size: 4rem;
+  color: white;
+  margin: 20px 0;
   text-align: center;
 }
 
-.container h1{
-  font-size: 2rem;
-  color: white;
-  margin: 20px 0;
+#counter-element{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .fm_box{
-    background-color: rgb(19, 137, 178);
-    font-size: 2rem;
-    text-align: center;
-    margin: 20px;
+  background-color: #1389B2;
+  font-size: 2rem;
+  text-align: center;
+  vertical-align: center;
+  padding: 30px;
+  margin: 20px;
+  width: 100px;
+  aspect-ratio: 1/1;
+
 }
 
 .fm_box2{
-    background-color: rgb(240, 70, 111);
-    font-size: 2rem;
-    text-align: center;
-    margin: 20px;
+  background-color: #F0466F;
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px;
 }
 
 .fm_box3{
-    background-color: rgb(12, 214, 161);
-    font-size: 2rem;
-    text-align: center;
-    margin: 20px;
+  background-color: #0CD6A1;
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px;
 }
 
 .fm_box4{
-    background-color: rgb(255, 209, 102);
-    font-size: 2rem;
-    text-align: center;
-    margin: 20px;
+  background-color: #FFD166;
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px;
 }
