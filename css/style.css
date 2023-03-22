@@ -6,4 +6,53 @@
 
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #083B4C;
+}
+
+/* Utilities */
+
+.test{
+  background-color: rgba(0, 128, 0, 0.405);
+  border: 1px solid black;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container h1{
+  font-size: 2rem;
+  color: white;
+  margin: 20px 0;
+}
+
+.fm_box{
+    background-color: rgb(19, 137, 178);
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+}
+
+.fm_box2{
+    background-color: rgb(240, 70, 111);
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+}
+
+.fm_box3{
+    background-color: rgb(12, 214, 161);
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+}
+
+.fm_box4{
+    background-color: rgb(255, 209, 102);
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
 }
