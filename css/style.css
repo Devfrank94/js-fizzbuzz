@@ -33,38 +33,28 @@ h1{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .fm_box{
   background-color: #1389B2;
-  font-size: 2rem;
-  text-align: center;
-  vertical-align: center;
-  padding: 30px;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 20px;
   width: 100px;
   aspect-ratio: 1/1;
-
 }
 
 .fm_box2{
   background-color: #F0466F;
-  font-size: 2rem;
-  text-align: center;
-  margin: 20px;
 }
 
 .fm_box3{
   background-color: #0CD6A1;
-  font-size: 2rem;
-  text-align: center;
-  margin: 20px;
 }
 
 .fm_box4{
   background-color: #FFD166;
-  font-size: 2rem;
-  text-align: center;
-  margin: 20px;
 }
